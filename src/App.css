@@ -2,37 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* CSS For Home*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  flex: 50%;
+  text-align: center;
+  margin: 4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#profile {
+  border-radius: 50%;
+  height: 12em;
+}
+
+#paragraph {
+  word-wrap: break-word;
+  flex-wrap: wrap-reverse;
+}
+
+/*@media handheld, only screen and (max-width: 767px) {
+  #homemain {
+  line-height: 15px;
+  background-color: transparent;
+  height: 500px;
+  width:600px;
+  max-width: 320px; /* or whatever size you want 
+  float: left;
+  padding: 10px;
+  font-size: 100%;
+  margin: 10px;
+  word-wrap: break-word;
   }
 }
+*/
