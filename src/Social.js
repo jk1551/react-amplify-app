@@ -3,11 +3,12 @@ import './App.css';
 
 function Social() {
     return (
-      <div className="Home">
-          <div className="row">
-          <div className="column">
-          <p>Testing</p>
-          </div>
+      <div className="Social">
+          <div className="rowTop">
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-briefcase"></a>
+          <a href="#" class="fa fa-download"></a>
           </div>
       </div>
     );

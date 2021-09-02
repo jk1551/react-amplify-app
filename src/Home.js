@@ -5,6 +5,7 @@ import Social from "./Social";
 function Home() {
     return (
       <div className="Home">
+          <Social/>
           <div className="row">
           <div className="column">
           <img id="profile" src="./me.png" alt="alternatetext"/>
@@ -17,7 +18,7 @@ function Home() {
                 </p>
             </div>
           </div>
-          <Social/>
+          
       </div>
     );
   }
